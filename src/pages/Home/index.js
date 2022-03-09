@@ -1,7 +1,8 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React from 'react';
+import { SafeAreaView,Image,View, ButtonContainer } from 'react-native';
 
-export default function App() {
+export default function Home() {
   return (
     <View style={styles.container}>
       <Text>Open up App.js to start working on your app!</Text>
